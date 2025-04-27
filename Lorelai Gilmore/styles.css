@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root {
+    --cor-principal: hsl(99, 100%, 51%);
+    --cor-secundaria: #000000;
+    --cor-destaque: #00ef30;
+}
+
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+.lead{
+    color: var(--cor-principal);
+}
+
+a, .btn-link:hover {
+    color: rgb(0, 242, 8);
+}
+
+a:hover{
+    color: var(--cor-destaque);
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+
+    font-optical-sizing: auto;
+    background-image: url(img/Fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.Top2 {
+    color: rgb(0, 0, 0);
+   }
